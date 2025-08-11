@@ -1,0 +1,1240 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<!-- This Website created by Yonas Alemu -->
+    <head>
+        <!-- meta data -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+        <!--font-family-->
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+        <!-- title of site -->
+        <title>ቅመም Solution</title>
+
+        <!-- For favicon png -->
+		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
+       
+        <!--font-awesome.min.css-->
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+
+        <!--linear icon css-->
+		<link rel="stylesheet" href="assets/css/linearicons.css">
+
+		<!--animate.css-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+
+		<!--flaticon.css-->
+        <link rel="stylesheet" href="assets/css/flaticon.css">
+
+		<!--slick.css-->
+        <link rel="stylesheet" href="assets/css/slick.css">
+		<link rel="stylesheet" href="assets/css/slick-theme.css">
+		
+        <!--bootstrap.min.css-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		
+		<!-- bootsnav -->
+		<link rel="stylesheet" href="assets/css/bootsnav.css" >	
+        
+        <!--style.css-->
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <!--responsive.css-->
+        <link rel="stylesheet" href="assets/css/responsive.css">
+		<link rel="stylesheet" href="./pages/products.css">
+        
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		
+        <!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+	
+	<body>
+		<!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+		
+		<!--header-top start -->
+		<header id="header-top" class="header-top">
+			<ul>
+				<li>
+					<div class="header-top-left">
+						<ul>
+							<li class="select-opt">
+								<select name="language" id="language">
+									<option value="Amharic">AM</option>
+									<option value="English">EN</option>
+								</select>
+							</li>
+							<li class="select-opt">
+								<select name="currency" id="currency">
+									<option value="ETH">🇪🇹 ETH</option>
+									<option value="USD">🇺🇸 USD</option>
+								</select>
+							</li>
+							<li class="select-opt">
+								<a href="#"><span class="lnr lnr-magnifier"></span></a>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li class="head-responsive-right pull-right">
+					<div class="header-top-right">
+						<ul>
+							<li class="header-top-contact">
+								+251 943 30 34 66
+							</li>
+							<li class="header-top-contact">
+								<a href="tel:+251989463121">Contact Me</a>
+							</li>
+							<li class="select-opt">
+								<select name="currency" id="currency" onchange="redirectToPayment(this.value)">
+									<option value="">Payment Option</option>
+									<option value="telebirr">Telebirr</option>
+									<option value="Apollo">Apollo</option>
+									<option value="CBE">CBE</option>
+									<option value="paypal">PayPal</option>
+								</select>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+					
+		</header><!--/.header-top-->
+		<!--header-top end -->
+
+		<!-- top-area Start -->
+		<section class="top-area">
+			<div class="header-area">
+				<!-- Start Navigation -->
+			    <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+			        <div class="container">
+
+			            <!-- Start Header Navigation -->
+			            <div class="navbar-header">
+			                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+			                    <i class="fa fa-bars"></i>
+			                </button>
+			                <a class="navbar-brand" href="index.html">
+						<img style="margin-top: -50%;" src="assets/logo/qe.png" width="65px"  alt=""></a>
+
+			            </div><!--/.navbar-header-->
+			            <!-- End Header Navigation -->
+
+			            <!-- Collect the nav links, forms, and other content for toggling -->
+			            <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+			                    <li class=" scroll active"><a href="#home">home</a></li>
+			                    <li class="scroll"><a href="#works">how it works</a></li>
+			                    <li class="scroll"><a href="#explore">explore</a></li>
+			                    <li class="scroll"><a href="#reviews">review</a></li>
+								
+								<li class="scroll dropdown">
+									<a href="./pages/Product.html" class="dropdown-toggle">Products <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#male.html">Male Fashion</a></li>
+										<li><a href="#female.html">Female Fashion</a></li>
+										<li><a href="#kids.html">Kids Fashion</a></li>
+										<li><a href="#perfume.html">Perfume</a></li>
+									</ul>
+								</li>
+			                    <li class="scroll"><a href="#blog">blog</a></li>
+			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                </ul><!--/.nav -->
+			            </div><!-- /.navbar-collapse -->
+			        </div><!--/.container-->
+			    </nav><!--/nav-->
+			    <!-- End Navigation -->
+			</div><!--/.header-area-->
+		    <div class="clearfix"></div>
+
+		</section><!-- /.top-area-->
+		<!-- top-area End -->
+
+		<!--welcome-hero start -->
+		<section id="home" class="welcome-hero">
+			<div class="container">
+				<div class="welcome-hero-txt">
+					<h2>It's a great place where companies can step up a notch</h2>
+					<p>
+						All in one  Marketing consultancy, Logo design, Branding, Web development, UIUX, Graphics design <br> ሁሉንም በቅመም Solution
+					</p>
+				</div>
+				<div class="welcome-hero-serch-box">
+					<div class="welcome-hero-form">
+						<div class="single-welcome-hero-form">
+							<h3>What?</h3>
+							<input type="text" id="serviceInput" placeholder="Ex: logo, website, Branding, UIUX, Marketing" />
+							<div class="welcome-hero-form-icon">
+								<i class="flaticon-list-with-dots"></i>
+							</div>
+						</div>
+						<div class="single-welcome-hero-form">
+							<h3>Location</h3>
+							<input type="text" id="locationInput" placeholder="Ex: Addis Ababa, Hawassa, Bahir Dar, Oromia" />
+							<div class="welcome-hero-form-icon">
+								<i class="flaticon-gps-fixed-indicator"></i>
+							</div>
+						</div>
+					</div>
+					<div class="welcome-hero-serch">
+						<button class="welcome-hero-btn" id="searchButton">
+							Search <i data-feather="search"></i>
+						</button>
+					</div>
+				</div>
+		</section><!--/.welcome-hero-->
+		<!--welcome-hero end -->
+
+		<!--list-topics start -->
+		<section id="list-topics" class="list-topics">
+			<div class="container">
+				<div class="list-topics-content">
+					<ul>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="fas fa-laptop-code"></i>
+								</div>
+								<h2><a href="#explore">Web Development </a></h2>
+								<p>150 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="fas fa-paint-brush"></i>
+								</div>
+								<h2><a href="explore">Graphics Design</a></h2>
+								<p>214 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="fas fa-pencil-ruler"></i>
+								</div>
+								<h2><a href="explore">UIUX</a></h2>
+								<p>185 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="fas fa-lightbulb"></i>
+								</div>
+								<h2><a href="explore">Branding</a></h2>
+								<p>200 listings</p>
+							</div>
+						</li>
+						<li>
+							<div class="single-list-topics-content">
+								<div class="single-list-topics-icon">
+									<i class="fas fa-chart-line"></i>
+								</div>
+								<h2>
+									<a href="./pages/Product.html"style="text-align: center;">
+									  Business & Digital Marketing
+									</a>
+								  </h2>
+								  
+								<p>120 listings</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.list-topics-->
+		<!--list-topics end-->
+
+		<!--works start -->
+		<section id="works" class="works">
+			<div class="container">
+				<div class="section-header">
+					<h2>how it works</h2>
+					<p>Learn More about how our website works</p>
+				</div><!--/.section-header-->
+				<div class="works-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-lightbulb-idea"></i>
+								</div>
+								<h2><a href="#">Choose <span> What to</span> Do</a></h2>
+								<p>
+									Select from our expert services in Graphics Design, Web Design & Development, 
+									and Marketing to bring your vision to life. Whether you need a stunning brand identity, 
+									a high-performing website, or a strategic marketing plan, we’ve got you covered.								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-networking"></i>
+								</div>
+								<h2><a href="#">Find <span> what you want</span></a></h2>
+								<p>
+									Discover the perfect solution tailored to your needs. 
+									Explore our services in Graphics Design, Web Development, 
+									and Marketing to elevate your brand and make a lasting impact.
+								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-how-works">
+								<div class="single-how-works-icon">
+									<i class="flaticon-location-on-road"></i>
+								</div>
+								<h2><a href="#">Check out the <span>amazing </span> work done.</a></h2>
+								<p>
+									See our portfolio of Graphics Design, Web Development, and Marketing projects.
+									 Get inspired by our past work and envision how we can help you achieve your goals.								</p>
+								<button class="welcome-hero-btn how-work-btn" onclick="window.location.href='#'">
+									read more
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+		
+		</section><!--/.works-->
+		<!--works end -->
+		<embed 
+		style="margin: auto; width: 700px; height: 400px; display: block;" 
+		src="./ቅመም Solution Design the future.pdf" 
+		type="application/pdf">
+			  <!--explore start -->
+		<section id="explore" class="explore">
+			<div class="container">
+				<div class="section-header">
+					<h2>explore</h2>
+					<p>Do quality work with us to be competitive worldwide. They are proud of us.</p>
+				</div><!--/.section-header-->
+				<div class="explore-content">
+					<div class="row">
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e1.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">best rated</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-1">
+									<h2><a href="#explore">Online movie streaming Web</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#explore"> 10 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">1.5k$-2k$</span>
+										</span>
+										 <a href="#explore">Movie</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#explore">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													This movie streaming platform is the first of its kind in Ethiopia, offering a unique experience. Enjoy a curated selection of local and international films handpicked by Andy, all in high-quality resolution												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#explore"><i data-feather="map-pin"></i></a>
+													<a href="#explore"><i data-feather="upload"></i></a>
+													<a href="#explore"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e2.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">featured</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-2">
+									<h2><a href="#explore">Travle Time Web </a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4.5</span>
+										<a href="#explore"> 8 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">100$-500$</span>
+										</span>
+										 <a href="#explore">Travle</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#explore">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													Travel Time Web is a platform that lets you explore destinations in advance and book travel arrangements with ease. Discover incredible places both in Ethiopia and around the world, ensuring a seamless and memorable journey												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#explore"><i data-feather="map-pin"></i></a>
+													<a href="#explore"><i data-feather="upload"></i></a>
+													<a href="#explore"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e3.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">best rated</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-3">
+									<h2><a href="#explore">E-commerce Web</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#explore"> 15 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">1k$-1.5k$</span>
+										</span>
+										 <a href="#explore">Shopping</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#explore">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													This e-commerce platform offers a seamless shopping experience, providing high-quality products designed to enhance your comfort. Shop locally crafted artistic clothing as well as branded fashion and footwear from around the world, all in one place												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#explore"><i data-feather="map-pin"></i></a>
+													<a href="#explore"><i data-feather="upload"></i></a>
+													<a href="#explore"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class=" col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e4.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">most view</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-4">
+									<h2><a href="#explore">Beaty & spa Web</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#explore"> 10 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">50$-150$</span>
+										</span>
+										 <a href="#explore">Beaty</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#explore">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													This Beauty & Spa web platform helps you showcase your beauty services and grow your business, connecting you with clients looking for top-notch self-care experiences.												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#explore"><i data-feather="map-pin"></i></a>
+													<a href="#explore"><i data-feather="upload"></i></a>
+													<a href="#explore"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e5.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">featured</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-2">
+									<h2><a href="#explore">Furniture Shopping Web</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">4.2</span>
+										<a href="#explore"> 8 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">150$-200$</span>
+										</span>
+										 <a href="#explore">Furniture</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#explore">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													This Furniture Shopping Web is a platform where you can explore and purchase high-quality furniture, from locally crafted pieces to internationally renowned brands, ensuring style and comfort for your space.												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#explore"><i data-feather="map-pin"></i></a>
+													<a href="#explore"><i data-feather="upload"></i></a>
+													<a href="#explore"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-explore-item">
+								<div class="single-explore-img">
+									<img src="assets/images/explore/e6.jpg" alt="explore image">
+									<div class="single-explore-img-info">
+										<button onclick="window.location.href='#'">best rated</button>
+										<div class="single-explore-image-icon-box">
+											<ul>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-arrows-alt"></i>
+													</div>
+												</li>
+												<li>
+													<div class="single-explore-image-icon">
+														<i class="fa fa-bookmark-o"></i>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="single-explore-txt bg-theme-5">
+									<h2><a href="#explore">Electric Car Company Web</a></h2>
+									<p class="explore-rating-price">
+										<span class="explore-rating">5.0</span>
+										<a href="#explore"> 15 ratings</a> 
+										<span class="explore-price-box">
+											form
+											<span class="explore-price">1k$-5k$</span>
+										</span>
+										 <a href="#explore">Cars</a>
+									</p>
+									<div class="explore-person">
+										<div class="row">
+											<div class="col-sm-2">
+												<div class="explore-person-img">
+													<a href="#explore">
+														<img src="assets/images/explore/person.png" alt="explore person">
+													</a>
+												</div>
+											</div>
+											<div class="col-sm-10">
+												<p>
+													This Electric Car Company Web is a platform where you can explore innovative, eco-friendly electric vehicles, learn about their features, and make informed purchases, driving towards a sustainable future.
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="explore-open-close-part">
+										<div class="row">
+											<div class="col-sm-5">
+												<button class="close-btn" onclick="window.location.href='#'">close now</button>
+											</div>
+											<div class="col-sm-7">
+												<div class="explore-map-icon">
+													<a href="#explore"><i data-feather="map-pin"></i></a>
+													<a href="#explore"><i data-feather="upload"></i></a>
+													<a href="#explore"><i data-feather="heart"></i></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+
+		</section><!--/.explore-->
+		<!--explore end -->
+
+		<!--reviews start -->
+		<section id="reviews" class="reviews">
+			<div class="section-header">
+				<h2>clients reviews</h2>
+				<p>What our client say about us</p>
+			</div><!--/.section-header-->
+			<div class="reviews-content">
+				<div class="testimonial-carousel">
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/C1.jpeg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Nahome tadele</h2>
+									<h4>Addis Ababa. Et</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									ቅመም Solution created a stunning website for our business. Their attention to detail and professionalism were outstanding!"
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c2.jpeg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Lidiya Degnew</h2>
+									<h4>Addis Ababa. Et</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									"We loved working with ቅመም Solution on our branding. They perfectly captured our vision and gave us a unique identity!"								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c3.jpeg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Muaz Jemal</h2>
+									<h4>Addis Ababa. Et</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									"The UI/UX designs they delivered were modern, user-friendly, and exactly what we needed for our app. Highly recommended!"								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c4.jpg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Dr Solomon</h2>
+									<h4>Addis Ababa. Et</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									"Their company profile service helped us present our business professionally. The design and content were top-notch!"								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c5.jpeg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Ephrem Negash</h2>
+									<h4>london, UK</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									"Professional, fast, and highly creative! ቅመም Solution exceeded our expectations in every way."
+								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c6.jpeg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Yeabsira Abraham</h2>
+									<h4>Addis Ababa. Et</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									"What sets ቅመም Solution apart is their commitment to customer satisfaction. They listened to our needs and delivered beyond our expectations."								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c7.jpeg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Dagmawit Moges Bekele</h2>
+									<h4>london, UK</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									"We needed a custom software solution, and ቅመም Solution delivered exactly what we envisioned. Their team was great to work with!"								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				    <div class="single-testimonial-box">
+						<div class="testimonial-description">
+							<div class="testimonial-info">
+								<div class="testimonial-img">
+									<img src="assets/images/clients/c8.jpeg" style="border-radius: 50px; width: 50px;" alt="clients">
+								</div><!--/.testimonial-img-->
+								<div class="testimonial-person">
+									<h2>Afrah Muhammed</h2>
+									<h4>Addis Ababa. Et</h4>
+									<div class="testimonial-person-star">
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+										<i class="fa fa-star"></i>
+									</div>
+								</div><!--/.testimonial-person-->
+							</div><!--/.testimonial-info-->
+							<div class="testimonial-comment">
+								<p>
+									"Thanks to their marketing expertise, our online presence has grown significantly. They provided the right strategies to attract more clients!"								</p>
+							</div><!--/.testimonial-comment-->
+						</div><!--/.testimonial-description-->
+					</div><!--/.single-testimonial-box-->
+				</div>
+			</div>
+
+		</section><!--/.reviews-->
+		<!--reviews end -->
+
+		<!-- statistics strat -->
+		<section id="statistics"  class="statistics">
+			<div class="container">
+				<div class="statistics-counter"> 
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">90 </div> <span>K+</span>
+							</div><!--/.statistics-content-->
+							<h3>Works done</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">40</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>Category of work done</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">63</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>General customers</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+					<div class="col-md-3 col-sm-6">
+						<div class="single-ststistics-box">
+							<div class="statistics-content">
+								<div class="counter">51</div> <span>k+</span>
+							</div><!--/.statistics-content-->
+							<h3>happy clients</h3>
+						</div><!--/.single-ststistics-box-->
+					</div><!--/.col-->
+				</div><!--/.statistics-counter-->	
+			</div><!--/.container-->
+
+		</section><!--/.counter-->	
+		<!-- statistics end -->
+
+		<!--blog start -->
+		<section id="blog" class="blog" >
+			<div class="container">
+				<div class="section-header">
+					<h2>news and articles</h2>
+					<p>Always upto date with our latest News and Articles </p>
+				</div><!--/.section-header-->
+				<div class="blog-content">
+					<div class="row">
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="assets/images/blog/b1.jpg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#">Creative & Professional Graphics Design</a></h2>
+									<h4>Contact <span>us</span> <a href="https://www.linkedin.com/in/yonas-alemu-b09298336/">admin</a> February 2025</h4>
+									<p>
+										We offer logo design, branding, social media graphics, posters, and more to make your brand stand out. 
+										Transform your ideas into stunning visuals with our expert design services!									</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="assets/images/blog/b2.jpg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="#explore">Professional Web Design & Development</a></h2>
+									<h4>Contact <span>us</span> | <a href="tel:+251943303466">admin</a> | February 2025</h4>
+									<p>
+										We create modern, responsive, and user-friendly websites tailored to your needs. 
+										From business sites to e-commerce platforms, we bring your vision to life with sleek designs and powerful functionality.
+									</p>
+									<ol type="I">
+										<h2>
+									    <li><b><a href="#blog">Basic</a></b></li>
+										<li><b><a href="#blog">Advance</a></b></li>
+										<li><b><a href="#blog">Pro</a></b></li>
+										</h2>
+									</ol>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6">
+							<div class="single-blog-item">
+								<div class="single-blog-item-img">
+									<img src="assets/images/blog/b3.jpg" alt="blog image">
+								</div>
+								<div class="single-blog-item-txt">
+									<h2><a href="pages/temer.html">Comprehensive Marketing & Business Solutions</a></h2>
+									<h4>Contact <span>us</span> <a href="tel:+251989463121">admin</a> February 2025</h4>
+									<p>
+										We provide expert real estate consulting, stylish online shopping Clothe for men & women,
+										 and professional marketing consultancy to boost your brand.
+										 Our goal is to help you succeed with innovative strategies and quality services.									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div><!--/.container-->
+			
+		</section><!--/.blog-->
+		<!--blog end -->
+
+		<!--subscription strat -->
+		<section id="contact"  class="subscription">
+			<div class="container">
+				<div class="subscribe-title text-center">
+					<h2>
+						do you want to add your business listing with us?
+					</h2>
+					<p>
+						Listrace offer you to list your business with us and we very much able to promote your Business.
+					</p>
+				</div>
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="subscription-input-group">
+							<form id="contactForm">
+								<input type="text" id="name" name="name"  class="subscription-input-form" placeholder="Enter your name" required> <br>
+								<input type="tel" id="phone" name="phone"  class="subscription-input-form" placeholder="Enter your phone number" required> <br>
+								<input type="email" id="email" name="email"  class="subscription-input-form" placeholder="Enter your email" required> <br>
+								<textarea id="format" name="message"  class="subscription-input-form" placeholder="Enter your Message" required></textarea> <br>
+								<button type="submit" class="appsLand-btn subscribe-btn">Submit</button>
+							  </form>
+						</div>
+					</div>	
+				</div>
+			</div>
+
+		</section><!--/subscription-->	
+		<!--subscription end -->
+
+		<!--footer start-->
+		<footer id="footer"  class="footer">
+			<div class="container">
+				<div class="footer-menu">
+		           	<div class="row">
+			           	<div class="col-sm-3">
+			           		 <div class="navbar-header">
+				                <a class="navbar-brand" href="index.html">
+									<img style="margin-top: -130%;" src=".//assets/logo/qe.png" width="60px"  alt=""></a>
+				            </div><!--/.navbar-header-->
+			           	</div>
+			           	<div class="col-sm-9">
+			           		<ul class="footer-menu-item">
+			                    <li class="scroll"><a href="#works">how it works</a></li>
+			                    <li class="scroll"><a href="#explore">explore</a></li>
+			                    <li class="scroll"><a href="#reviews">review</a></li>
+			                    <li class="scroll"><a href="#blog">blog</a></li>
+								<li class="scroll dropdown">
+									<a href="./pages/Product.html" class="dropdown-toggle">Products <span class="caret"></span></a>
+									<ul class="dropdown-menu">
+										<li><a href="#male.html">Male Fashion</a></li>
+										<li><a href="#female.html">Female Fashion</a></li>
+										<li><a href="#kids.html">Kids Fashion</a></li>
+										<li><a href="#perfume.html">Perfume</a></li>
+									</ul>
+								</li>
+			                    <li class="scroll"><a href="#contact">contact</a></li>
+			                    <li class=" scroll"><a href="#contact">my account</a></li>
+			                </ul><!--/.nav -->
+			           	</div>
+		           </div>
+				</div>
+				<div class="hm-footer-copyright">
+					<div class="row">
+						<div class="col-sm-5">
+							<p>
+								<a href="https://liyonay.my.canva.site/liyonay"><b>POWERED BY YonasA.</b></a> <br>
+								&copy; 2025 ቅመም <a href="https://liyonay.my.canva.site/liyonay" target="_blank"> || All rights reserved by ቅመም Solution</a>
+							</p><!--/p-->
+							<!-- This Website created by Yonas Alemu -->
+
+						</div>
+						<div class="col-sm-7">
+							<div class="footer-social">
+								<span><i class="fa fa-phone"></i> +251 943 30 34 66</span>
+								<a href="https://web.facebook.com/liyonay.j" aria-label="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+								<a href="https://www.instagram.com/liyonay" aria-label="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+								<a href="https://www.tiktok.com/liyonay" aria-label="tiktok" target="_blank"><i class="fa fa-tiktok"></i></a> <!-- Removed Google Plus --><!-- Removed Google Plus -->
+								<a href="https://t.me/liyonay" aria-label="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+								<a href="https://x.com/liyonay_y" aria-label="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+								<a href="https://www.linkedin.com/in/yonas-alemu-b09298336/" aria-label="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
+								<a href="https://liyonay.my.canva.site/liyonay" aria-label="Canva Profile" target="_blank"><i class="fa fa-link"></i></a>
+								<a href="https://www.youtube.com/kmemTubes" aria-label="youtube" target="_blank"><i class="fa fa-youtube"></i></a> <!-- Removed Google Plus -->
+								<!-- Removed Google Plus -->
+							</div>
+							
+						</div>
+					</div>
+					
+				</div><!--/.hm-footer-copyright-->
+			</div><!--/.container-->
+
+			<div id="scroll-Top">
+				<div class="return-to-top">
+					<i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+				</div>
+				
+			</div><!--/.scroll-Top-->
+			
+        </footer><!--/.footer-->
+		<!--footer end-->
+		
+		<!-- Include all js compiled plugins (below), or include individual files as needed -->
+
+		<script src="assets/js/jquery.js"></script>
+        
+        <!--modernizr.min.js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+		
+		<!--bootstrap.min.js-->
+        <script src="assets/js/bootstrap.min.js"></script>
+		
+		<!-- bootsnav js -->
+		<script src="assets/js/bootsnav.js"></script>
+
+        <!--feather.min.js-->
+        <script  src="assets/js/feather.min.js"></script>
+
+        <!-- counter js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<script src="assets/js/waypoints.min.js"></script>
+
+        <!--slick.min.js-->
+        <script src="assets/js/slick.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+		<script>
+		  // Initialize EmailJS with your Public Key
+		  emailjs.init('oHJ5VAoWy_aRNAJhb'); // Replace with your EmailJS Public Key
+	  
+		  // Handle form submission
+		  document.getElementById('contactForm').addEventListener('submit', function (event) {
+			event.preventDefault();
+	  
+			// Define formData here
+			const formData = {
+			  name: document.getElementById('name').value,
+			  phone: document.getElementById('phone').value,
+			  email: document.getElementById('email').value,
+			  message: document.getElementById('format').value, // Use 'message' instead of 'format'
+			};
+	  
+			// Debug: Check if formData is correct
+	  
+			// Send email using EmailJS
+			emailjs.send('service_mp5t3wu', 'template_nhv9f2q', formData)
+			  .then(response => {
+				console.log('Email sent successfully!', response);
+				alert('Message sent successfully!');
+				document.getElementById('contactForm').reset();
+			  })
+			  .catch(error => {
+				console.error('Error sending email:', error);
+				alert('Failed to send message. Please try again.');
+			  });
+		  });
+		</script>
+        <!--Custom JS-->
+        <script src="assets/js/custom.js"></script>
+		<script>
+			document.getElementById("searchButton").addEventListener("click", function() {
+				let service = document.getElementById("serviceInput").value.trim();
+				let location = document.getElementById("locationInput").value.trim();
+			
+				if (service || location) {
+					alert(`Searching for: ${service} in ${location}`);
+					navigator('#blog')
+					// Replace with actual search functionality, e.g., redirect to a results page:
+					// window.location.href = `search.html?service=${service}&location=${location}`;
+				} else {
+					alert("Please enter a service or location.");
+				}
+			});
+			</script>
+        <script>
+			function redirectToPayment(value) {
+				const links = {
+					telebirr: "https://www.ethiotelecom.et/telebirr/0943303466",
+					CBE: "https://combanketh.et/en/mobile-banking",
+					Chapa: "https://chapa.co",
+					paypal: "https://www.paypal.com"
+				};
+		
+				if (links[value]) {
+					window.location.href = links[value];
+				}
+			}
+		</script>
+    </body>
+	<!-- This Website created by Yonas Alemu -->
+</html>

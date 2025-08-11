@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/icon" href="favicon.png"/>
+    <title>ቅመም Solution</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <link rel="stylesheet" href="../assets/css/bootsnav.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/flaticon.css">
+    <link rel="stylesheet" href="../assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/css/linearicons.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/slick-theme.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="./products.css">
+
+
+    <!-- Feather Icons for better UI experience -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header id="header-top" class="header-top">
+        <ul>
+            <li>
+                <div class="header-top-left">
+                    <ul>
+                        <li class="select-opt">
+                            <select name="language" id="language">
+                                <option value="default">EN</option>
+                                <option value="Arabic">AM</option>
+                            </select>
+                        </li>
+                        <li class="select-opt">
+                            <select name="currency" id="currency">
+                                <option value="eth">ETH</option>
+                                <option value="usd">USD</option>
+                            </select>
+                        </li>
+                        <li class="select-opt">
+                            <a href="#"><span class="lnr lnr-magnifier"></span></a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="head-responsive-right pull-right">
+                <div class="header-top-right">
+                    <ul>
+                        <li class="header-top-contact">
+                            +251 943 30 34 66
+                        </li>
+                        <li class="header-top-contact">
+                            <a href="tel:+251989463121">Contact Me</a>
+                        </li>
+                        <li class="select-opt">
+                            <select name="currency" id="currency" onchange="redirectToPayment(this.value)">
+                                <option value="">Payment Option</option>
+                                <option value="telebirr">Telebirr</option>
+                                <option value="CBE">CBE</option>
+                                <option value="Chapa">Chapa</option>
+                                <option value="paypal">PayPal</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+                
+    </header><!--/.header-top-->
+    <!--header-top end -->
+
+    <!-- top-area Start -->
+    <section class="top-area">
+        <div class="header-area">
+            <!-- Start Navigation -->
+            <nav class="navbar navbar-default bootsnav  navbar-sticky navbar-scrollspy"  data-minus-value-desktop="70" data-minus-value-mobile="55" data-speed="1000">
+
+                <div class="container">
+
+                    <!-- Start Header Navigation -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">
+                    <img style="margin-top: -50%;" src="../assets/logo/qe.png" width="65px"  alt=""></a>
+
+                    </div><!--/.navbar-header-->
+                    <!-- End Header Navigation -->
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li class=" scroll"><a href="../index.html">home</a></li>
+                            <li class="scroll"><a href="temer.html">Temer</a></li>
+                            <li class="scroll"><a href="vamos.html">Vamos</a></li>
+                            <li class="scroll  active"><a href="jambo.html">Jambo</a></li>
+                            <li class="scroll"><a href="amibara.html">Amibara</a></li>
+                            <li class="scroll dropdown">
+                                <a href="./Product.html" class="dropdown-toggle">Products <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#male.html">Male Fashion</a></li>
+                                    <li><a href="#female.html">Female Fashion</a></li>
+                                    <li><a href="#kids.html">Kids Fashion</a></li>
+                                    <li><a href="#perfume.html">Perfume</a></li>
+                                </ul>
+                            </li>
+                            <li class="scroll"><a href="tel:+251989683121">contact</a></li>
+                        </ul><!--/.nav -->
+                    </div><!-- /.navbar-collapse -->
+                </div><!--/.container-->
+            </nav><!--/nav-->
+            <!-- End Navigation -->
+        </div><!--/.header-area-->
+    <section id="explore" class="explore">
+			<div class="container">
+                <div class="section-header">
+					<h2>Jambo Real estate</h2>
+					<p>Check out Quality Homes. They love it, they buy it, they live with it.</p>
+				</div>
+        <div class="explore-content">
+            <div class="row">
+                <div class=" col-md-4 col-sm-6">
+                    <div class="single-explore-item">
+                        <div class="single-explore-img">
+                            <img src="aaa.png" alt="explore image">
+                            <div class="single-explore-img-info">
+                                <button onclick="window.location.href='#'">best rated</button>
+                                <div class="single-explore-image-icon-box">
+                                    <ul>
+                                        <li>
+                                            <div class="single-explore-image-icon">
+                                                <i class="fa fa-arrows-alt"></i>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="single-explore-image-icon">
+                                                <i class="fa fa-bookmark-o"></i>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-explore-txt bg-theme-1">
+                            <h2><a href="#explore">Jambo Real Estate</a></h2>
+                            <p class="explore-rating-price">
+                                <span class="explore-rating">5.0</span>
+                                <a href="#explore"> 10 ratings</a> 
+                                <span class="explore-price-box">
+                                    form
+                                    <span class="explore-price">AU_2_3D1</span>
+                                </span>
+                                 <a href="#explore">Apartment</a>
+                            </p>
+                            <div class="explore-person">
+                                <div class="row">
+                                    <div class="col-sm-2">
+                                        <div class="explore-person-img">
+                                            <a href="#explore">
+                                                <img src="j.png" alt="explore person">
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-10">
+                                        <p>
+                                            Jambo Real Estate is an Ethiopian real estate development company that builds apartments in Addis Ababa. The company aims to provide luxury living with modern amenities and timeless elegance.                                     </div>
+                                </div>
+                            </div>
+                            <div class="explore-open-close-part">
+                                <div class="row">
+                                    <div class="col-sm-5">
+                                        <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                    </div>
+                                    <div class="col-sm-7">
+                                        <div class="explore-map-icon">
+                                            <a href="#explore"><i data-feather="map-pin"></i></a>
+                                            <a href="#explore"><i data-feather="upload"></i></a>
+                                            <a href="#explore"><i data-feather="heart"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="explore-content" style="margin-top: -50px;">
+                    <div class="row">
+                        <div class=" col-md-4 col-sm-6">
+                            <div class="single-explore-item">
+                                <div class="single-explore-img">
+                                    <img src="bbb.jpg" alt="explore image">
+                                    <div class="single-explore-img-info">
+                                        <button onclick="window.location.href='#'">best rated</button>
+                                        <div class="single-explore-image-icon-box">
+                                            <ul>
+                                                <li>
+                                                    <div class="single-explore-image-icon">
+                                                        <i class="fa fa-arrows-alt"></i>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="single-explore-image-icon">
+                                                        <i class="fa fa-bookmark-o"></i>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="single-explore-txt bg-theme-1">
+                                    <h2><a href="#explore">Jambo Real Estate</a></h2>
+                                    <p class="explore-rating-price">
+                                        <span class="explore-rating">5.0</span>
+                                        <a href="#explore"> 10 ratings</a> 
+                                        <span class="explore-price-box">
+                                            form
+                                            <span class="explore-price">AWARE_2_3D21</span>
+                                        </span>
+                                         <a href="#explore">Appartment</a>
+                                    </p>
+                                    <div class="explore-person">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <div class="explore-person-img">
+                                                    <a href="#explore">
+                                                        <img src="j.png" alt="explore person">
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <p>
+                                                    Jambo Real Estate is an Ethiopian real estate development company that builds apartments in Addis Ababa. The company aims to provide luxury living with modern amenities and timeless elegance.                                    </div>
+                                        </div>
+                                    </div>
+                                    <div class="explore-open-close-part">
+                                        <div class="row">
+                                            <div class="col-sm-5">
+                                                <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                            </div>
+                                            <div class="col-sm-7">
+                                                <div class="explore-map-icon">
+                                                    <a href="#explore"><i data-feather="map-pin"></i></a>
+                                                    <a href="#explore"><i data-feather="upload"></i></a>
+                                                    <a href="#explore"><i data-feather="heart"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="explore-content" >
+                            <div class="row">
+                                <div class=" col-md-4 col-sm-6">
+                                    <div class="single-explore-item">
+                                        <div class="single-explore-img">
+                                            <img src="ccc.jpg" alt="explore image">
+                                            <div class="single-explore-img-info">
+                                                <button onclick="window.location.href='#'">best rated</button>
+                                                <div class="single-explore-image-icon-box">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="single-explore-image-icon">
+                                                                <i class="fa fa-arrows-alt"></i>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <div class="single-explore-image-icon">
+                                                                <i class="fa fa-bookmark-o"></i>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="single-explore-txt bg-theme-1">
+                                            <h2><a href="#explore">Jambo Real Estate</a></h2>
+                                            <p class="explore-rating-price">
+                                                <span class="explore-rating">5.0</span>
+                                                <a href="#explore"> 10 ratings</a> 
+                                                <span class="explore-price-box">
+                                                    form
+                                                    <span class="explore-price">BOLE_1_3D</span>
+                                                </span>
+                                                 <a href="#explore">Appartment</a>
+                                            </p>
+                                            <div class="explore-person">
+                                                <div class="row">
+                                                    <div class="col-sm-2">
+                                                        <div class="explore-person-img">
+                                                            <a href="#explore">
+                                                                <img src="j.png" alt="explore person">
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-10">
+                                                        <p>
+                                                            Jambo Real Estate is an Ethiopian real estate development company that builds apartments in Addis Ababa. The company aims to provide luxury living with modern amenities and timeless elegance.                                     </div>
+                                                </div>
+                                            </div>
+                                            <div class="explore-open-close-part">
+                                                <div class="row">
+                                                    <div class="col-sm-5">
+                                                        <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                                    </div>
+                                                    <div class="col-sm-7">
+                                                        <div class="explore-map-icon">
+                                                            <a href="#explore"><i data-feather="map-pin"></i></a>
+                                                            <a href="#explore"><i data-feather="upload"></i></a>
+                                                            <a href="#explore"><i data-feather="heart"></i></a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="explore-content">
+                                    <div class="row">
+                                        <div class=" col-md-4 col-sm-6">
+                                            <div class="single-explore-item">
+                                                <div class="single-explore-img">
+                                                    <img src="ddd.jpg" alt="explore image">
+                                                    <div class="single-explore-img-info">
+                                                        <button onclick="window.location.href='#'">best rated</button>
+                                                        <div class="single-explore-image-icon-box">
+                                                            <ul>
+                                                                <li>
+                                                                    <div class="single-explore-image-icon">
+                                                                        <i class="fa fa-arrows-alt"></i>
+                                                                    </div>
+                                                                </li>
+                                                                <li>
+                                                                    <div class="single-explore-image-icon">
+                                                                        <i class="fa fa-bookmark-o"></i>
+                                                                    </div>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="single-explore-txt bg-theme-1">
+                                                    <h2><a href="#explore">Jambo Real Estate</a></h2>
+                                                    <p class="explore-rating-price">
+                                                        <span class="explore-rating">5.0</span>
+                                                        <a href="#explore"> 10 ratings</a> 
+                                                        <span class="explore-price-box">
+                                                            form
+                                                            <span class="explore-price">BOLE_1_3D</span>
+                                                        </span>
+                                                         <a href="#explore">Appatment</a>
+                                                    </p>
+                                                    <div class="explore-person">
+                                                        <div class="row">
+                                                            <div class="col-sm-2">
+                                                                <div class="explore-person-img">
+                                                                    <a href="#explore">
+                                                                        <img src="j.png" alt="explore person">
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-sm-10">
+                                                                <p>
+                                                                    Jambo Real Estate is an Ethiopian real estate development company that builds apartments in Addis Ababa. The company aims to provide luxury living with modern amenities and timeless elegance.                                     </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="explore-open-close-part">
+                                                        <div class="row">
+                                                            <div class="col-sm-5">
+                                                                <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                                            </div>
+                                                            <div class="col-sm-7">
+                                                                <div class="explore-map-icon">
+                                                                    <a href="#explore"><i data-feather="map-pin"></i></a>
+                                                                    <a href="#explore"><i data-feather="upload"></i></a>
+                                                                    <a href="#explore"><i data-feather="heart"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="explore-content">
+                                            <div class="row">
+                                                <div class=" col-md-4 col-sm-6">
+                                                    <div class="single-explore-item">
+                                                        <div class="single-explore-img">
+                                                            <img src="eee.jpg" alt="explore image">
+                                                            <div class="single-explore-img-info">
+                                                                <button onclick="window.location.href='#'">best rated</button>
+                                                                <div class="single-explore-image-icon-box">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <div class="single-explore-image-icon">
+                                                                                <i class="fa fa-arrows-alt"></i>
+                                                                            </div>
+                                                                        </li>
+                                                                        <li>
+                                                                            <div class="single-explore-image-icon">
+                                                                                <i class="fa fa-bookmark-o"></i>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="single-explore-txt bg-theme-1">
+                                                            <h2><a href="#explore">Jambo Real Estate</a></h2>
+                                                            <p class="explore-rating-price">
+                                                                <span class="explore-rating">5.0</span>
+                                                                <a href="#explore"> 10 ratings</a> 
+                                                                <span class="explore-price-box">
+                                                                    form
+                                                                    <span class="explore-price">VATICAN_1_3D</span>
+                                                                </span>
+                                                                 <a href="#explore">Appartment</a>
+                                                            </p>
+                                                            <div class="explore-person">
+                                                                <div class="row">
+                                                                    <div class="col-sm-2">
+                                                                        <div class="explore-person-img">
+                                                                            <a href="#explore">
+                                                                                <img src="j.png" alt="explore person">
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-10">
+                                                                        <p>
+                                                                            Jambo Real Estate is an Ethiopian real estate development company that builds apartments in Addis Ababa. The company aims to provide luxury living with modern amenities and timeless elegance.                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="explore-open-close-part">
+                                                                <div class="row">
+                                                                    <div class="col-sm-5">
+                                                                        <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                                                    </div>
+                                                                    <div class="col-sm-7">
+                                                                        <div class="explore-map-icon">
+                                                                            <a href="#explore"><i data-feather="map-pin"></i></a>
+                                                                            <a href="#explore"><i data-feather="upload"></i></a>
+                                                                            <a href="#explore"><i data-feather="heart"></i></a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="explore-content">
+                                                    <div class="row">
+                                                        <div class=" col-md-4 col-sm-6">
+                                                            <div class="single-explore-item">
+                                                                <div class="single-explore-img">
+                                                                    <img src="fff.jpg" alt="explore image">
+                                                                    <div class="single-explore-img-info">
+                                                                        <button onclick="window.location.href='#'">best rated</button>
+                                                                        <div class="single-explore-image-icon-box">
+                                                                            <ul>
+                                                                                <li>
+                                                                                    <div class="single-explore-image-icon">
+                                                                                        <i class="fa fa-arrows-alt"></i>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li>
+                                                                                    <div class="single-explore-image-icon">
+                                                                                        <i class="fa fa-bookmark-o"></i>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="single-explore-txt bg-theme-1">
+                                                                    <h2><a href="#explore">Jambo Real Estate</a></h2>
+                                                                    <p class="explore-rating-price">
+                                                                        <span class="explore-rating">5.0</span>
+                                                                        <a href="#explore"> 10 ratings</a> 
+                                                                        <span class="explore-price-box">
+                                                                            form
+                                                                            <span class="explore-price">VATICAN_1_3D</span>
+                                                                        </span>
+                                                                         <a href="#explore">Appartment</a>
+                                                                    </p>
+                                                                    <div class="explore-person">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-2">
+                                                                                <div class="explore-person-img">
+                                                                                    <a href="#explore">
+                                                                                        <img src="j.png" alt="explore person">
+                                                                                    </a>
+                                                                                </div>
+                                                                            </div>
+                                                                            <div class="col-sm-10">
+                                                                                <p>
+                                                                                    Jambo Real Estate is an Ethiopian real estate development company that builds apartments in Addis Ababa. The company aims to provide luxury living with modern amenities and timeless elegance.                                     </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="explore-open-close-part">
+                                                                        <div class="row">
+                                                                            <div class="col-sm-5">
+                                                                                <button class="close-btn open-btn" onclick="window.location.href='#'">open now</button>
+                                                                            </div>
+                                                                            <div class="col-sm-7">
+                                                                                <div class="explore-map-icon">
+                                                                                    <a href="#explore"><i data-feather="map-pin"></i></a>
+                                                                                    <a href="#explore"><i data-feather="upload"></i></a>
+                                                                                    <a href="#explore"><i data-feather="heart"></i></a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+                                                       
+                                                                    </div><!--/.container-->
+
+                                                                </section><!--/.explore-->
+                                                                                                         </section><!--/.explore-->  
+                                                                                                         <embed src="./Jambo.pdf.pdf" style="margin-left:5%;" width="1200px" height="400px" justify-content="cente" type="">                                                                                       
+                                                                                                         <footer id="footer"  class="footer">
+                                                                                                            <div class="container">
+                                                                                                                <div class="footer-menu">
+                                                                                                                       <div class="row">
+                                                                                                                           <div class="col-sm-3">
+                                                                                                                                <div class="navbar-header">
+                                                                                                                                <a class="navbar-brand" href="index.html">
+                                                                                                                                    <img style="margin-top: -130%;" src=".//assets/logo/qe.png" width="60px"  alt=""></a>
+                                                                                                                            </div><!--/.navbar-header-->
+                                                                                                                           </div>
+                                                                                                                           <div class="col-sm-9">
+                                                                                                                               <ul class="footer-menu-item">
+                                                                                                                                <li class="scroll"><a href="../index.html">Home</a></li>
+                                                                                                                                <li class="scroll"><a href="temer.html">Temer</a></li>
+                                                                                                                                <li class="scroll"><a href="../pages/vamos.html">Vamos</a></li>
+                                                                                                                                <li class="scroll"><a href="../pages/jambo.html">Jambo</a></li>
+                                                                                                                                <li class="scroll"><a href="amibara.html">Amibara</a></li>
+                                                                                                                                <li class="scroll dropdown">
+                                                                                                                                    <a href="./Product.html" class="dropdown-toggle">Products <span class="caret"></span></a>
+                                                                                                                                    <ul class="dropdown-menu">
+                                                                                                                                        <li><a href="#male.html">Male Fashion</a></li>
+                                                                                                                                        <li><a href="#female.html">Female Fashion</a></li>
+                                                                                                                                        <li><a href="#kids.html">Kids Fashion</a></li>
+                                                                                                                                        <li><a href="#perfume.html">Perfume</a></li>
+                                                                                                                                    </ul>
+                                                                                                                                </li>
+                
+                                                                                                                            </ul><!--/.nav -->
+                                                                                                                           </div>
+                                                                                                                   </div>
+                                                                                                                </div>
+                                                                                                                <div class="hm-footer-copyright">
+                                                                                                                    <div class="row">
+                                                                                                                        <div class="col-sm-5">
+                                                                                                                            <p>
+                                                                                                                                <a href="https://liyonay.my.canva.site/liyonay"><b>POWERED BY YonasA.</b></a> <br>
+                                                                                                                                &copy; 2025 ቅመም <a href="https://liyonay.my.canva.site/liyonay" target="_blank"> || All rights reserved by ቅመም Solution</a>
+                                                                                                                            </p><!--/p-->
+                                                                                                                            <!-- This Website created by Yonas Alemu -->
+                                                                                                
+                                                                                                                        </div>
+                                                                                                                        <div class="col-sm-7">
+                                                                                                                            <div class="footer-social">
+                                                                                                                                <span><i class="fa fa-phone"></i> +251 943 30 34 66</span>
+                                                                                                                                <a href="https://web.facebook.com/liyonay.j" aria-label="Facebook" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                                                                                                <a href="https://www.instagram.com/liyonay" aria-label="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
+                                                                                                                                <a href="https://www.tiktok.com/liyonay" aria-label="tiktok" target="_blank"><i class="fa fa-tiktok"></i></a> <!-- Removed Google Plus --><!-- Removed Google Plus -->
+                                                                                                                                <a href="https://t.me/liyonay" aria-label="Telegram" target="_blank"><i class="fa fa-telegram"></i></a>
+                                                                                                                                <a href="https://x.com/liyonay_y" aria-label="Twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                                                                                                <a href="https://www.linkedin.com/in/yonas-alemu-b09298336/" aria-label="LinkedIn" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                                                                                                                <a href="https://liyonay.my.canva.site/liyonay" aria-label="Canva Profile" target="_blank"><i class="fa fa-link"></i></a>
+                                                                                                                                <a href="https://www.youtube.com/kmemTubes" aria-label="youtube" target="_blank"><i class="fa fa-youtube"></i></a> <!-- Removed Google Plus -->
+                                                                                                                                <!-- Removed Google Plus -->
+                                                                                                                            </div>
+                                                                                                                            
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                    
+                                                                                                                </div><!--/.hm-footer-copyright-->
+                                                                                                            </div><!--/.container-->
+                                                                                                
+                                                                                                            <div id="scroll-Top">
+                                                                                                                <div class="return-to-top">
+                                                                                                                    <i class="fa fa-angle-up " id="scroll-top" data-toggle="tooltip" data-placement="top" title="" data-original-title="Back to Top" aria-hidden="true"></i>
+                                                                                                                </div>
+                                                                                                                
+                                                                                                            </div><!--/.scroll-Top-->
+                                                                                                            
+                                                                                                        </footer>   
+    <script>
+        // Toggle Menu
+        const menuToggle = document.getElementById("menu-toggle");
+        const navMenu = document.getElementById("nav-menu");
+
+        menuToggle.addEventListener("click", () => {
+            navMenu.classList.toggle("active");
+            menuToggle.classList.toggle("fa-times"); // Change icon on toggle
+        });
+    </script>
+    <script>
+        feather.replace();
+    </script>
+
+</body>
+</html>
+
+
+
